@@ -1,0 +1,147 @@
+/* Copyright (C) 2015 Tom Messerschmidt  */
+
+
+/* Style 1	 */
+
+.style1 {
+
+	height: 125px;
+	width: 250px;
+
+}
+
+.style1 #input1 {
+
+	border: 1px solid black;
+	color: #454545;
+	border-radius: 5px;
+	transition: box-shadow 0.25s linear;
+
+}
+
+.style1 #input1:hover, #input1:focus {
+
+	border: 1px solid black;
+	box-shadow: 0.25px 0.25px 3px cyan;
+
+}
+
+.style1 #input1:focus {
+
+	outline: 0;
+	
+}
+
+/* Style 2 */
+
+.style2 #input2 {
+
+	border: 1px solid rgba(0,0,0,0.08);
+	border-radius: 7px;
+	color: grey;
+	transition: border 0.8s linear, border-radius 0.8s linear;
+	font-family: monospace;
+
+}
+
+.style2 #input2:hover, #input2:focus {
+
+	border: 1px solid rgba(0,0,0,1);
+	border-radius: 3px;
+
+}
+
+.style2 #input2:focus {
+
+	outline: 0;
+
+}
+
+/* Style 3 */
+
+
+.style3 #input3 {
+
+	border: 1px dotted black;
+	border-radius: 5px;
+	color: black;
+	font-family: monospace;
+	transition: transform 0.5s linear;
+
+}
+
+.style3 #input3:hover, #input3:focus {
+
+	transform: scale(1.1);
+
+}
+
+.style3 #input3:focus {
+
+	outline: 0;
+
+}
+
+/* Style 1 Button */
+
+
+.style1 #button1 {
+
+	border-radius: 5px;
+	border: 1px solid black;
+	transition: box-shadow 0.25s linear;
+	background-color: white;
+
+}
+
+.style1 #button1:hover, #button1:focus {
+
+	box-shadow: 0.25px 0.25px 3px cyan;
+
+}
+
+.style1 #button1:focus {
+
+	outline: 0;
+
+}
+
+/* Style 2 Button */
+
+
+.style2 #button2 {
+
+	background-color: white;
+	transition: border 0.8s linear, border-radius 0.8s linear;
+	font-family: monospace;
+	border: 1px solid rgba(0,0,0,0.08);
+	color: grey;
+	border-radius: 7px;
+
+}
+
+.style2 #button2:hover, #button2:focus {
+
+	border: 1px solid rgba(0,0,0,1);
+	border-radius: 3px;
+	outline: 0;
+
+}
+
+.style3 #button3 {
+
+	border: 1px dotted black;
+	border-radius: 5px;
+	color: black;
+	font-family: monospace;
+	transition: transform 0.5s linear;
+	background-color: white;
+
+}
+
+.style3 #button3:hover, #button3:focus {
+
+	transform: scale(1.1);
+	outline: 0;
+
+}
